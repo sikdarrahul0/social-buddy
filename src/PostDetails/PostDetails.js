@@ -46,7 +46,7 @@ const PostDetails = () => {
                     </Typography>
                 </CardContent>
             </Card>
-            <Comment id={post.id}></Comment>
+            <Comment id={post.id} key={id}></Comment>
         </div>
     );
 };
